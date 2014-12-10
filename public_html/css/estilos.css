@@ -21,4 +21,55 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#wrapper{
+    position: relative;
+    margin: 0px auto;
+    width: 1024px;
+    height: 860px;
+    background-color: #cccccc;
+}
+header{
+    position: absolute;
+    float: left;
+    width: 1024px;
+    height: 150px;
+    left: 450px;
+    background-color: #00722d;
+}
 
+nav{
+    position: absolute;
+    width: 900px;
+    top: 158px;
+    left: 450px;
+    
+}
+ul#main-nav {font-family:helvetica,arial,sans-serif;margin:0;padding:0;float:left;width:100%;}
+ul#main-nav li {margin:0;padding:0;list-style:none;float:left;margin:0;width:180px;}
+ul#main-nav li a {text-decoration:none;display:block;padding:0.3em 0.6em;color:white;background:#036;border-left:2px solid #006;}
+ul#main-nav li a:hover, ul#main-nav	li a:focus {background:#369;border-left:2px solid yellow;}
+ul#main-nav li ul {padding:0;margin:0;display:none;}
+ul#main-nav li:hover ul {display:block;}
+ul#main-nav li ul li {float:none;}
+ul#main-nav li ul li a {font-size:0.9em;}
+
+/*section{
+    float: left;
+    width: 800px;
+    height: 460px;
+    background-color: #e7e7de
+}
+footer{
+    float: left;
+    width: 800px;
+    height: 200px;
+    background-color: #006e2e
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 90%;
+    background-color: #e7e7de
+}
+
+*/
