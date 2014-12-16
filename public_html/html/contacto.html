@@ -23,12 +23,63 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <html>
-  <head>
-    <title>TODO supply a title</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-      <div>TODO write content</div>
-  </body>
+    <head>
+        <title>Formulario de contacto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form id="form_contacto" method="post">
+                <table>
+                    <tr>
+                        <td>Nombre(*):</td>
+                        <td><input type="text" id="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td>Apellido 1(*):</td> 
+                        <td><input type="text" id="apellido1" required></td>
+                    </tr>
+                    <tr>
+                        <td>Apellido 2(*):</td> 
+                        <td><input type="text" id="apellido2" required></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail(*):</td> 
+                        <td><input type="text" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Teléfono fijo:</td> 
+                        <td><input type="text" id="telfijo"></td>
+                    </tr>
+                    <tr>
+                        <td>Teléfono móvil(*):</td> 
+                        <td><input type="text" id="telmovil" required></td>
+                    </tr>
+                    <tr>
+                        <td>Descripción(*):</td> 
+                        <td><textarea id="descripcion" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Asunto(*):</td> 
+                        <td>
+                            <select id="asunto" required>
+                                <option value=''>Selecciona un asunto</option>
+                                <option value='Precio'>Consulta sobre precios</option>
+                                <option value='Horarios'>Consulta sobre horarios</option>
+                                <option value='Sugerencias'>Sugerencias</option>
+                                <option value='Reclamaciones'>Reclamaciones</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="checkbox" id="terminos" required> Acepto los términos y condiciones</td> 
+                    </tr>
+                      <tr>
+                          <td colspan="2" align="middle"><input type="submit" id="enviar" value="Enviar"></td> 
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
 </html>
